@@ -1,18 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;1,400;1,600&display=swap");
 
 // light theme
-$base: #faf4ed;
-$text: #202940;
-$overlay: #f2e9e1;
-$blue: #31425f;
-$orange: #e66739;
+$base-l: #faf4ed;
+$text-l: #202940;
+$overlay-l: #f2e9e1;
 
 // dark theme
 $base: #0d101a;
 $text: #faf4ed;
 $overlay: #31425f;
-$blue: #b2beeb;
-$orange: #eb9475;
+
+// other swatches
+$navy: #31425f;
+$orange: #e66739;
+$yellow: #e6da39;
+$green: #7ee639;
+$cyan: #39e6da;
+$blue: #397ee6;
+$violet: #6739e6;
+$red: #e63939;
 
 // fonts
 $font-family-base: "Raleway", system-ui, -apple-system, "Segoe UI", Roboto,
