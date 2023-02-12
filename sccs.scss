@@ -1,25 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;1,400;1,600&display=swap");
 
 // light theme
-$base-l: #faf4ed;
-$text-l: #202940;
-$overlay-l: #f2e9e1;
+$base-l: #fffaf2; // hsv (36, 5, 100)
+$text-l: #0d121a; // hsv (216, 50, 10)
+$overlay-l: #f2ede6; // hsv (36, 5, 95)
 
 // dark theme
-$base-d: #0d101a;
-$text-d: #faf4ed;
-$overlay-d: #31425f;
+$base-d: #1d2026; // hsv (216, 25, 15)
+$text-d: #fffaf2; // hsv (36, 5, 100)
+$overlay-d: #303640; // hsv (216, 25, 25)
 
 // other swatches
-$navy: #31425f;
-$orange: #e66739;
-$yellow: #e6da39;
-$green: #7ee639;
-$cyan: #39e6da;
-$blue: #397ee6;
-$violet: #6739e6;
-$pink: #e639b8;
-$red: #e63939;
+$navy: #2a3b54; // hsv (216, 50, 33)
+$orange: #e66739; // hsv (16, 75, 90)
+$yellow: #e6da39; // hsv (56, 75, 90)
+$green: #7ee639; // hsv (96, 75, 90)
+$cyan: #39e6da; // hsv (176, 75, 90)
+$blue: #397ee6; // hsv (216, 75, 90)
+$violet: #6739e6; // hsv (256, 75, 90)
+$pink: #e639b8; // hsv (316, 75, 90)
+$red: #e63939; // hsv (356, 75, 90)
 
 // fonts
 $font-family-base: "Raleway", system-ui, -apple-system, "Segoe UI", Roboto,
