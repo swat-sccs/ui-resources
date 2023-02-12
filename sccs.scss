@@ -1,3 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;1,400;1,600&display=swap");
+
 // light theme
+$base: #faf4ed;
+$text: #202940;
+$overlay: #f2e9e1;
+$blue: #31425f;
+$orange: #e66739;
 
 // dark theme
+$base: #0d101a;
+$text: #faf4ed;
+$overlay: #31425f;
+$blue: #b2beeb;
+$orange: #eb9475;
+
+// fonts
+$font-family-base: "Raleway", system-ui, -apple-system, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$display-font-sizes: (
+  1: 4.5rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem,
+) !default;
+
+$border-radius: 4px;
