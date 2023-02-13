@@ -1,25 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;1,400;1,600&display=swap");
 
 // light theme
-$base-l: #fffefc; // hsv (36, 1, 100)
-$text-l: #0d121a; // hsv (216, 50, 10)
-$overlay-l: #f2ede6; // hsv (36, 5, 95)
+$base-l: hsl(16, 75%, 94%);
+$text-l: hsl(217, 33%, 8%);
+$overlay-l: hsl(16, 75%, 88%);
 
 // dark theme
-$base-d: #1d2026; // hsv (216, 25, 15)
-$text-d: #fffaf2; // hsv (36, 5, 100)
-$overlay-d: #303640; // hsv (216, 25, 25)
+$base-d: hsl(216, 17%, 13%);
+$text-d: hsl(16, 75%, 94%);
+$overlay-d: hsl(216, 17%, 25%);
 
 // other swatches
-$navy: #2a3b54; // hsv (216, 50, 33)
-$orange: #e66739; // hsv (16, 75, 90)
-$yellow: #e6da39; // hsv (56, 75, 90)
-$green: #7ee639; // hsv (96, 75, 90)
-$cyan: #39e6da; // hsv (176, 75, 90)
-$blue: #397ee6; // hsv (216, 75, 90)
-$violet: #6739e6; // hsv (256, 75, 90)
-$pink: #e639b8; // hsv (316, 75, 90)
-$red: #e63939; // hsv (356, 75, 90)
+$navy: hsl(216, 33%, 25%);
+$orange: hsl(16, 75%, 67%);
+$yellow: hsl(56, 75%, 67%);
+$green: hsl(96, 75%, 67%);
+$cyan: hsl(176, 75%, 67%);
+$blue: hsl(216, 75%, 67%);
+$violet: hsl(256, 75%, 67%);
+$pink: hsl(316, 75%, 67%);
+$red: hsl(0, 75%, 67%);
 
 // fonts
 $font-family-base: "Raleway", system-ui, -apple-system, "Segoe UI", Roboto,
