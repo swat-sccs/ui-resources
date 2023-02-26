@@ -3,12 +3,14 @@
 // light theme
 $base-l: hsl(56, 6%, 94%);
 $text-l: hsl(216, 13%, 19%);
+$surface-l: hsl(56, 2%, 98%);
 $overlay-l: hsl(56, 6%, 88%);
 
 // dark theme
 $base-d: hsl(216, 13%, 13%);
 $text-d: hsl(56, 6%, 94%);
-$overlay-d: hsl(216, 13%, 19%);
+$surface-d: hsl(216, 13%, 19%);
+$overlay-d: hsl(216, 13%, 25%);
 
 // other swatches
 $navy: hsl(216, 33%, 25%);
@@ -20,6 +22,7 @@ $blue: hsl(216, 75%, 67%);
 $violet: hsl(256, 75%, 67%);
 $pink: hsl(316, 75%, 67%);
 $red: hsl(0, 75%, 67%);
+$white: hsl(56, 2%, 98%);
 
 // fonts
 $font-family-base: "Raleway", system-ui, -apple-system, "Segoe UI", Roboto,
