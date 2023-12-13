@@ -1,30 +1,64 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;1,400;1,600&display=swap");
-
-// light theme
-$base-l: hsl(56, 6%, 94%);
-$text-l: hsl(216, 13%, 19%);
-$surface-l: hsl(56, 2%, 98%);
-$overlay-l: hsl(56, 6%, 88%);
-
-// dark theme
-$base-d: hsl(216, 33%, 25%);
-$text-d: hsl(56, 6%, 94%);
-$surface-d: hsl(216, 33%, 19%);
-$overlay-d: hsl(216, 33%, 33%);
-
-// other swatches
-$navy: hsl(216, 33%, 25%);
-$orange: hsl(16, 75%, 67%);
-$yellow: hsl(56, 75%, 67%);
-$green: hsl(96, 75%, 67%);
-$cyan: hsl(176, 75%, 67%);
-$blue: hsl(216, 75%, 67%);
-$violet: hsl(256, 75%, 67%);
-$pink: hsl(316, 75%, 67%);
-$red: hsl(0, 75%, 67%);
-$white: hsl(56, 2%, 98%);
+// to use this stylesheet header:
+// either include this at the top of your sass file
+// or use `@import '_sccs'` at the top of your sass file
 
 // fonts
-$font-family-base: "Raleway", system-ui, -apple-system, "Segoe UI", Roboto,
-  "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
-  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;1,400;1,600&display=swap");
+$font-family: "Raleway", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+// light theme
+$light: (
+  bg: hsl(0, 0%, 100%);
+  text: hsl(0, 0%, 0%);
+  card: hsl(0, 0%, 95%);
+  subheader: hsl(0, 0%, 82%);
+  header: hsl(0, 0%, 76%);
+  navy-accent: hsl(218, 32%, 28%);
+  dark-navy-blue: hsl(216, 33%, 16%);
+  navy-blue: hsl(216, 33%, 25%);
+  navy-blue: hsl(216, 33%, 25%);
+  light-navy-blue: hsl(216, 33%, 30%);
+  baby-blue: hsl(216, 33%, 35%);
+  orange-accent: hsl(19, 90%, 55%);
+  orange: hsl(16, 75%, 67%);
+  yellow: hsl(56, 75%, 67%);
+  green: hsl(96, 75%, 67%);
+  cyan: hsl(176, 75%, 67%);
+  blue: hsl(216, 75%, 67%);
+  violet: hsl(256, 75%, 67%);
+  pink: hsl(316, 75%, 67%);
+  red: hsl(0, 75%, 67%);
+  white: hsl(56, 2%, 98%);
+);
+
+// dark theme
+$dark: (
+  bg: hsl(216, 33%, 25%);
+  text: hsl(56, 6%, 94%);
+  card: hsl(216, 33%, 33%);
+  subheader: hsl(216, 33%, 25%);
+  header: hsl(216, 33%, 19%);
+  navy-accent: hsl(218, 32%, 28%);
+  dark-navy-blue: hsl(216, 33%, 16%);
+  navy-blue: hsl(216, 33%, 25%);
+  navy-blue: hsl(216, 33%, 25%);
+  light-navy-blue: hsl(216, 33%, 30%);
+  baby-blue: hsl(216, 33%, 35%);
+  orange-accent: hsl(19, 90%, 55%);
+  orange: hsl(16, 75%, 67%);
+  yellow: hsl(56, 75%, 67%);
+  green: hsl(96, 75%, 67%);
+  cyan: hsl(176, 75%, 67%);
+  blue: hsl(216, 75%, 67%);
+  violet: hsl(256, 75%, 67%);
+  pink: hsl(316, 75%, 67%);
+  red: hsl(0, 75%, 67%);
+  white: hsl(56, 2%, 98%);
+);
+
+// function to switch between light and dark themes
+// implement it as body and body.dark and use t(<color name>, <theme name>) in sass
+// don't forget to add a js function for theme toggling
+@function t($property, $theme: $light) {
+  @return map-get($theme, $property);
+}
